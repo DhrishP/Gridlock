@@ -1,0 +1,6 @@
+[submodule "DUMMYDB/src"]
+	path = DUMMYDB/src
+	url = https://github.com/DhrishP/GridLockJava.git
+[submodule "src2"]
+	path = src2
+	url = https://github.com/DhrishP/GridLockJava.git
