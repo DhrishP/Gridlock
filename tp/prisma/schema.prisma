@@ -8,10 +8,10 @@ datasource db {
 }
 
 model scores {
-  id          Int       @id @default(autoincrement())
-  username    String?   @default("Anonymous") @db.VarChar(255)
-  secret      String?   @default("secretzz") @db.VarChar(255)
+  id          Int      @id @default(autoincrement())
+  username    String   @default("Anonymous")
+  secret      String   @default("secretzz")
   red_score   Int
   green_score Int
-  created     DateTime? @default(now()) @db.Timestamp(6)
+  created     DateTime @default(now())
 }

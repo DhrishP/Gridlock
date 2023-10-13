@@ -1,5 +1,4 @@
 "use client";
-import { redirect } from "next/navigation";
 import React from "react";
 
 const LoginForm = () => {
@@ -13,7 +12,7 @@ const LoginForm = () => {
     if (!username || !secret) return console.log("error");
     localStorage.setItem("username", JSON.stringify(username));
     localStorage.setItem("secret", JSON.stringify(secret));
-    redirect("/statspage");
+    window.location.href = "/statspage";
   };
 
   return (
