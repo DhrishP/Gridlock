@@ -176,9 +176,9 @@ class menu extends JFrame implements ActionListener{
 }
 class but extends JFrame implements ActionListener{
 
-    String url = "jdbc:postgresql://db.gizmjadcajjifmlnfjxa.supabase.co:5432/postgres?user=postgres&password=GridRoot!!@@##";
+    String url = "jdbc:postgresql://db.gizmjadcajjifmlnfjxa.supabase.co:5432/postgres?user=postgres&password=gridroot!!22";
     String username ="postgres";
-    String password = "GridRoot!!@@##";
+    String password = "gridroot!!22";
 
     String user,secret;
     int size,co;

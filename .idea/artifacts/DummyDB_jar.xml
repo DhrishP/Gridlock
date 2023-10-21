@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DummyDB:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DummyDB_jar</output-path>
+    <root id="archive" name="DummyDB.jar">
+      <element id="module-output" name="DummyDB" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../drivers/postgresql-42.6.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
